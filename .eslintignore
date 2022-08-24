@@ -1,0 +1,17 @@
+/src/typings.d.ts
+/src/components/pro/*
+/public/*
+/lambda/
+/scripts
+/config
+.history
+config
+public
+airoom-webapp
+.umi
+mock
+@ccs-design
+/node_modules/
+tsconfig.json
+commitlint.config.js
+.eslintrc.js
