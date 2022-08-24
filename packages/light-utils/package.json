@@ -1,0 +1,22 @@
+{
+  "name": "light-utils",
+  "version": "1.0.0",
+  "description": "一个用TS开发的项目实用工具包",
+  "type": "module",
+  "author": {
+    "name": "llq",
+    "email": "958614130@qq.com"
+  },
+  "sideEffects": false,
+  "module": "index.js",
+  "main": "index.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "add": "^2.0.6"
+  },
+  "license": "ISC",
+  "engines": {}
+}

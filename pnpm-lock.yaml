@@ -29,6 +29,12 @@ importers:
       prettier: 2.7.1
       typescript: 4.7.4
 
+  packages/light-utils:
+    specifiers:
+      add: ^2.0.6
+    devDependencies:
+      add: 2.0.6
+
   packages/vue3-demo:
     specifiers:
       '@vitejs/plugin-vue': ^3.0.3
@@ -40,7 +46,7 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue': 3.0.3_vite@3.0.9+vue@3.2.37
       vite: 3.0.9
-      vue-tsc: 0.39.5
+      vue-tsc: 0.39.5_typescript@4.7.4
 
 packages:
 
@@ -1426,7 +1432,7 @@ packages:
       '@types/node': 18.7.11
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 2.0.2_yuzmdm4dwbtqx7oi4ad7vmtwja
+      cosmiconfig-typescript-loader: 2.0.2_mppvj2b7ymnivxyll4bbrq2kui
       lodash: 4.17.21
       resolve-from: 5.0.0
       typescript: 4.7.4
@@ -2137,6 +2143,10 @@ packages:
     hasBin: true
     dev: true
 
+  /add/2.0.6:
+    resolution: {integrity: sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==}
+    dev: true
+
   /ajv/6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
     dependencies:
@@ -2497,11 +2507,12 @@ packages:
       semver: 7.0.0
     dev: true
 
-  /cosmiconfig-typescript-loader/2.0.2_yuzmdm4dwbtqx7oi4ad7vmtwja:
+  /cosmiconfig-typescript-loader/2.0.2_mppvj2b7ymnivxyll4bbrq2kui:
     resolution: {integrity: sha512-KmE+bMjWMXJbkWCeY4FJX/npHuZPNr9XF9q9CIQ/bpFwi1qHfCmSiKarrCcRa0LO4fWjk93pVoeRtJAkTGcYNw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
+      cosmiconfig: '>=7'
       typescript: '>=3'
     dependencies:
       '@types/node': 18.7.11
@@ -5627,7 +5638,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-tsc/0.39.5:
+  /vue-tsc/0.39.5_typescript@4.7.4:
     resolution: {integrity: sha512-jhTsrKhZkafpIeN4Cbhr1K53hNfa/oesSrlh7hUaeHyCk55VhZT6oJkwJbtqN4MYkWZIwPrm3/xTwsELuf2ocg==}
     hasBin: true
     peerDependencies:
@@ -5635,6 +5646,7 @@ packages:
     dependencies:
       '@volar/vue-language-core': 0.39.5
       '@volar/vue-typescript': 0.39.5
+      typescript: 4.7.4
     dev: true
 
   /vue/3.2.37:
