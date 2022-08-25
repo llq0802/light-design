@@ -2,6 +2,7 @@
   "name": "light-design-monorepo",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev:vue3-demo": "pnpm run -C packages/vue3-demo dev",
     "build:vue3-demo": "pnpm run -C packages/vue3-demo build"
